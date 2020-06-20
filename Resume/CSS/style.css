@@ -1,0 +1,475 @@
+/*  all heading color ---->   black
+    content color ------->  #7c7c7c
+    h1 size --------------> 24
+    h3 size ------------> 12
+    h4 size -----------> 10
+*/
+
+
+
+body{
+    padding: 0,0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    line-height: 90%;
+    word-spacing: 120%;
+    letter-spacing: 120%;
+    position: relative;
+    /* Below code is important to have background color in print preview/option and this has to be in body */
+    -webkit-print-color-adjust: exact !important;
+    overflow: auto;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.break{
+    page-break-before: always;
+}
+
+/* Parallelogram desing */
+/*
+.big-header{
+    width: 100%;
+    height: 5%;
+    overflow: auto;
+}
+*/
+.big-header{
+/*    border: 1px solid black;*/
+    width: 100%;
+    height: 5%;
+}
+
+.container-black{
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.big-header .container-black .parallelogram-black{
+    width: 600px;;
+    height: 100%;
+    background-color: #a7a7a7;
+    transform: skewX(-40deg);
+    position: relative;
+    left: -50%;
+}
+
+
+.intro-style-container-top-1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* Intro style for Top of the first page */
+.intro-style-container-top-1 .parallelogram-black{
+    width: 71%;
+    height: 100%;
+    background-color: #6a6a6a;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: -23px;
+    display: inline-block;
+    float: left;
+}
+.intro-style-container-top-1 .parallelogram-orng{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: 600px;
+}
+
+/* Intro style for Bottom of other than first page */
+
+.small-header{
+    width: 100%;
+    height: 1.5%;
+/*    border: 2px solid black;*/
+    overflow: auto;
+}
+
+.intro-style-container-top-2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.intro-style-container-top-2 .parallelogram-black{
+    width: 73%;
+    height: 100%;
+    background-color: #6a6a6a;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: -20px;
+    display: inline-block;
+    float: left;
+}
+.intro-style-container-top-2 .parallelogram-orng{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: 600px;
+}
+
+
+
+
+/* Intro style for Bottom of other than first page */
+.intro-style-container-botm{
+    width: 100%;
+    height: 1.5%;
+    overflow: hidden;
+    position: relative;
+    top: 69px;
+    display: inline-block;
+}
+.intro-style-container-botm-2{
+    width: 100%;
+    height: 1.5%;
+    overflow: hidden;
+    position: relative;
+    top: 205px;
+    display: inline-block;
+}
+.intro-style-container-botm .parallelogram-black,
+.intro-style-container-botm-2 .parallelogram-black
+{
+    width: 73%;
+    height: 100%;
+    background-color: #6a6a6a;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: 255px;
+    display: inline-block;
+    float: left;
+    
+}
+.intro-style-container-botm .parallelogram-orng,
+.intro-style-container-botm-2 .parallelogram-orng
+{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+    position: relative;
+    left: -20px;
+}
+
+/* Icons ************/
+.contacts p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 0;
+}
+.contacts p:last-of-type{
+    position: relative;
+/*    top: -2px;*/
+}
+.contacts i{
+    display: block;
+    margin: 5px 0;
+    font-size: 90%;
+    vertical-align: top;
+}
+.contacts i:first-of-type{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.contacts i .ion-ios-telephone{
+  display: block;
+}
+
+/* Skill bar ************/
+.skill-bar{
+    background-color: #cbcbcb;
+    border-radius: 25px;
+    width: 100px;
+    
+}
+.skill-bar p{
+    color: white;
+    background-color: black;
+    margin: 0 0;
+    width: 50px;
+    height: 3px;
+    font-size: 7px;
+    text-align: center;
+    border-radius: 25px;
+}
+.skill-bar #english{
+    width: 80px;
+}
+.skill-bar #hindi{
+    width: 80px;
+}
+.skill-bar #marathi{
+    width: 100px;
+}
+
+/* Name ************/
+.name h1{
+    padding: 0 0;
+    margin: 0 0;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    background-color: white;
+    font-size: 200%;
+    
+}
+
+/*  headings ***********/
+h1, h2, h3{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: black;
+}
+h3{
+    font-size: 80%;
+}
+h4{
+    font-size: 68%;
+    color: black;
+}
+h5{
+    margin: 1px 0;
+    font-size: 60%;
+    margin-top: 10px;
+    color: black;
+}
+.projects h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: black;
+}
+.projects h4:first-of-type{
+    margin-top: 30px;
+    display: inline;
+}
+.projects .all h5:first-of-type{
+    margin-left: 2px;
+    display: inline-block;
+}
+.projects .all h5:last-of-type{
+    margin-left: 2px;
+}
+.exp-details h3,.exp-details h5{
+    margin-bottom: 10px;
+}
+.exp-details h4{
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 0px;
+}
+.exp-details .date,.exp-details h4{
+    display: inline;
+    margin-left: 1px;
+}
+
+.content-right h3{
+    margin-bottom: 20px;
+}
+.content-right .contacts h3{
+    margin-bottom: 10px;
+}
+.content-right .language h3{
+    margin-bottom: 10px;
+}
+.content-right h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.language h4{
+    font-weight: inherit;
+    font-size: 60%;
+}
+/* list elements ********/
+ul{
+    position: relative;
+    top: -10px;
+}
+li{
+    font-size: 60%;
+    font-weight: 700;
+    color: #7c7c7c;
+    margin-left: -7%;
+}
+
+/* Box- page layout ***************/
+.box{
+    background-color: white;
+    overflow: auto;
+    width: 210mm;
+    height: 297mm;
+    
+}
+
+
+
+
+
+
+/* Left side contents ************/
+.content-left{
+    display: inline-block;
+    width: 48%;
+    float: left;
+    margin-left: 10%;
+}
+.page-2 .content-left{
+    margin-top: 40px;
+}
+.page-2 .content-right{
+    margin-top: 40px;
+}
+.objective h3{
+    padding: 0 0;
+}
+/*  Links from entire web page*/
+a{
+    font-size: 60%;
+    color: black;
+}
+
+/* Right side contents ************/
+.content-right{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    color: black;
+}
+.content-right .contacts p,.content-right .contacts i p{
+    font-size: 60%;
+    margin-left: 5px;
+}
+.content-right p{
+    font-size: 60%;
+    margin: 0 0;
+    margin-bottom: 5px;
+}
+.education-details .percent,.education-details .yop{
+    display: inline-block;
+}
+.education-details .percent{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+    line-height: 10px; 
+}
+.education-details h3{
+    margin-top: 10px;
+}
+
+/*
+@page {
+  margin: 120px 0;
+}
+
+@media print{
+  body{ background-color:#FFFFFF; background-image:none; color:#000000; }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+ 
+}
+*/
+
+.cmd{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 5px;
+    right: 0px;
+}
+
+
+/* A4 Page layout */
+.pageStruct{
+    /*  A4 size in mm */
+    width: 210mm;
+    height: 279mm;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    margin: auto;
+/*    display: inline;*/
+/*    margin-top: 20px;*/
+}
+
+
+/*
+@media print {
+    tr.vendorListHeading {
+        background-color: #1a4567 !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@media print {
+    .vendorListHeading th {
+        color: white !important;
+    }
+}
+*/
+
+/*
+@page {
+  size: A4;
+  margin: 0;
+}
+*/
+@media print {
+/*
+    .intro-style-container-top-2{
+        position: relative;
+        top: -10px;
+    }
+*/
+    .box{
+        height: 297.2mm;
+        width: 210mm;
+        border: 1px solid white;
+    }
+    .intro-style-container-botm-2{
+        width: 100%;
+        height: 1.5%;
+        overflow: hidden;
+        position: relative;
+        top: 272px;
+        display: inline-block;
+    }
+    .small-header{
+        position: relative;
+/*        top: -20px;*/
+    }
+    .big-header{
+        margin: 0 0;
+        position: relative;
+        top: -20px;
+    }
+    .footer-page-1{
+        position: relative;
+        top: 134px;
+    }
+  html, body {
+    margin-top: 0;
+    padding-top: 0;
+    margin: 0 0;
+    padding: 0 0;
+    width: 210mm;
+    height: 297.2mm;
+  }
+}
+
+
+

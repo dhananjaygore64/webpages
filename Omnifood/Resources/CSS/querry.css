@@ -1,0 +1,422 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%; 
+    }
+    .row{
+        padding: 0 2%;
+    }
+    
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0px;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left:10%;
+    }
+    .app-screen{
+        width: 60%;
+    }   
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+    .city-features{
+        font-size: 90%;
+    }
+    .small-icon{
+        font-size: 100%;
+        margin-right: 5px;
+    }
+    .plan-box{
+        margin: 0 2% 0 3%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+    .works-step div{
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .footer-nav{
+        width: 100%;
+        font-size: 110%;
+        margin-left: 0; 
+    }
+    .footer-nav li{
+        margin-right: 10px;
+    }
+    .works-step p{
+        font-size: 85%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 140%;
+    }
+    h3{
+        font-size: 98%;
+    }
+    .section-features .col{
+        width: 30%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 4%; 
+    }
+    .row{
+        padding: 0 4%;
+    }
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 40px 0px;
+    }
+    h1{
+        font-size: 150%;
+        word-spacing: 4px; 
+    }
+    h2{
+        font-size: 120%;
+        word-spacing: 2px;
+    }
+    h3{
+        font-size: 90%;
+    }
+    .section-features .col{
+        width: 100%;
+    }
+    .section-how-it-works{
+        font-size: 90%;
+    }
+    .works-step div{
+         margin-right: 10px;
+    }
+    .app-screen{
+        width: 80%;
+    }   
+    .works-step{
+        margin-bottom: 30px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 50px;
+    }
+    .btn-app img{
+        height: 20%;
+        width: 50%;
+        margin-right: 5px;
+    }
+    .play-store-btn img{
+        height: 20%;
+        width: 45%;
+    }
+    .section-cities .col{
+        width: 35%;
+    }
+    .section-testimonials .col{
+        width: 35%;
+    }
+    blockquote::before{
+    font-size: 400%;
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    
+    }
+    blockquote{
+        font-size: 90%;
+        margin-top: 15%;
+        width: 90%;
+        height: auto;
+        margin-left: 40px;      
+    }
+    .section-plan .col{
+        width: 45%;
+    }
+    .plan-box{
+        width: 100%;
+        margin: 0 2% 0 10%;
+    }
+    .plan-price{
+        font-size: 200%;
+    }
+    .footer-nav{
+        width: 100%;
+        font-size: 85%;
+        margin-left: 0; 
+    }
+    .footer-nav li{
+        margin-right: 2px;
+    }
+    .logo {
+        width: 15%;
+        height: auto;
+        margin-top: 20px;
+    }
+     .sticky-nav .logo-black {
+        width: auto;
+        height: 70px;
+        margin: 3px 0;
+     }
+    .main-nav{
+        display: none;
+    }
+    .mobile-nav{
+        float: right;
+        display: inline-block;
+    }
+    .main-nav{
+        float: left;  
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 100px 6%; 
+        margin-top: 30px;
+    }
+    .row{
+        padding: 0 4%;
+    }
+    body{
+        font-size: 14px;
+    }
+    section{
+        padding: 30px 0px;
+    }
+    h1{
+        font-size: 100%;
+        word-spacing: 2px; 
+    }
+    h2{
+        font-size: 90%;
+        word-spacing: 2px;
+    }
+    h3{
+        font-size: 80%;
+    }
+    h2::after {
+        height: 2px;
+        width: 80px;
+        content: " ";
+        margin-top: 20px;
+        
+    }
+    p{
+        font-size: 20%;
+    }
+    .long-copy {
+        font-size: 90%;
+        text-align: justify-all;
+    }
+    .btn,input[type=submit]{
+        display: block;
+        color: white;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    .hero-text-box .btn-full{
+        margin-top: 40px;
+    }
+    .hero-text-box .btn-ghost{
+        margin-top: 20px;
+        width: 160px;
+    }
+     .main-nav{
+         display: none;
+         text-align: left;
+         width: 120px;
+         height: 150px;
+         margin-left: 40px; 
+         margin-top: 30px;
+    }
+     .mobile-nav i{
+         margin-right: 0px;
+         float: right;
+    }
+    .mobile-nav{
+        margin-right: 0px;
+    }
+    .main-nav li{
+        margin-left: 0px;
+        text-align: left;
+        width: 100px;
+        font-size: 70%;
+    }
+    .logo {   
+        display: inline;
+    }
+    .mobile-nav-div{
+        float: right;
+        margin-right: 0px;
+        width: 10px;
+        height: 10px;
+    }
+     .sticky-nav .logo-black {
+        width: 20%;
+        height: 2%;
+    }
+    .sticky-nav .main-nav {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 0px;
+        height: 110px;
+    }
+    .sticky-nav .mobile-nav-div{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sticky-nav .mobile-nav{
+        margin-top: 10px;
+    }
+    .sticky-nav .main-nav li{
+        height: 20px;
+        margin-top: 5px;
+    }
+    .sticky-nav .main-nav li a{
+        margin-top: 0px;
+        padding:0 0;
+    }
+    .hero-text-box {
+        top: 50%;
+        width: 100%;
+        padding: 100px 6%; 
+        margin-top: 30px;
+    }
+    .section-how-it-works .col{
+        width: 100%;
+    }
+    .app-screen{
+        float: left;
+        width: 50%;
+        margin-left: 25%;
+        height: auto;
+    }
+    .apple-store-btn img{
+        display: block;
+    }
+    .play-store-btn img{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .section-cities .col{
+        width: 100%;
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+    .small-icon{
+        font-size: 140%;
+    }
+    .city-features{
+        vertical-align: middle;
+    }
+    .section-testimonials .col{
+        width: 100%;
+    }
+    .testimonial-div{
+        margin-bottom: 50px;
+    }
+    blockquote{
+        margin-top: 0%;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    cite img{
+        width: 30px;
+        height: auto;
+        margin-right: 10px;
+    }
+    cite{
+        padding-top: 10px;
+    }
+    .section-testimonials h2{
+        margin-bottom: 40px;
+    }
+    .section-plan .col{
+        width: 80%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    .plan-details{
+        font-size: 350%;
+    }
+    .sign-up-btn a{
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 15%;
+        width: 70%;
+        font-size: 70%;
+        padding: 10px 2px;
+    }
+    .btn-ghost
+    {
+        border-color: #e67e22;
+        color: #e67e22;
+    }
+
+    .btn-ghost:hover
+    {
+        color: white;
+    }
+    .section-forms .col{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    footer .col{
+        width: 100%;
+        margin-bottom: 20px;
+    }   
+    .footer-nav{
+        float: none;
+        text-align: center;
+    }
+    .footer-nav li{
+        margin-right: 4px;
+    }
+    .footer-links{
+        float: none;
+        text-align: center;
+    }
+    .copy-right{
+        font-size: 8px;
+    }
+
+}

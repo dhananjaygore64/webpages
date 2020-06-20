@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+        <script src="JS/htmlToPdf.js"></script>
+        <script src="JS/script.js"></script>
+        <title>Resume</title>
+    </head>
+    <body>             
+        <div class="box pageStruct page-1" class="print">
+            <header class="big-header">
+                <div class="intro-style-container-top-1">
+                    <div class="parallelogram-black"></div>
+                    <div class="parallelogram-orng"></div>
+                </div>
+            </header>
+<!--
+        <header class="big-header">
+            <div class="container-black">
+                <div class="parallelogram-black"></div>
+            </div>
+            <div class="container-orng">
+                <div class="parallelogram-orng"></div>
+            </div>
+        </header>
+-->
+            
+<!--
+        <div class="intro-style-container-botm footer-page-1">
+            <div class="parallelogram-black"></div>
+            <div class="parallelogram-orng"></div>
+        </div>
+-->
+       <div class="name">
+            <h1>Dhananjay Gore</h1>
+        </div>
+        <!-- ALL LEFT SIDE CONTENTS -->
+        <div class="content-left">
+            <div class="objective">
+                <h3>OBJECTIVE</h3>
+                <ul>
+                    <li>Highly focused software developer with 1.11+ years experience in Embedded
+                        software development. Organized and methodical with an eye for detail resulting
+                        in solid coding and trustworthy software programs.</li>
+                    <li>Self-motivated and hardworking graduate seeking an opportunity to work in a 
+                        challenging environment to prove my coding skills and utilize my knowledge
+                        of various databases for the growth of the organization.</li>
+                </ul>
+            </div>
+            <div class="achievements">
+                <h3>ACHIEVEMENTS</h3>
+                <ul>
+                    <li>First Prize winner of Nirmitee Project Competition - An Inter Departm ent Project
+                        competition at SVCP College.</li>
+                    <li>Achieved 4th Rank by Scoring 83.47% in Final Year of Diploma.</li>
+                    <li>Secured 1st Rank by Scoring 98 Marks in Mechatronics Subject and Became the first
+                        student to have ever scored more than 95 Marks in Same Subject in Final Year of Diploma.</li>
+                    <li>Attended and Completed Online Course for Core Java, HTML5, CSS3, JavaScript, C Language.</li>
+                    <li>Participated in National Level Project Competition at PVPIT College and KJ COET College.</li>
+                    <li>Participated and Implemented Photo Phobic Robot at SVCP College.</li>
+                </ul>
+            </div>  
+            <div class="projects">
+                <h3>PROJECTS</h3>
+                <div class="project-1 all">
+                    <h4>Omnifood -</h4>
+                    <h5 class="date">30 Apr'20 to 11 May'20</h5>
+                    <a href="https://dhananjaygore64.github.io/Omnifood/" target="_blank">https://dhananjaygore64.github.io/Omnifood/</a>
+                    <h5>Personal Study Project : </h5>
+                    <ul>
+                        <li>Omnifood is an Imaginary Food delivery company which provides Healthy food for 
+                            customers and has monthly subscription plans for food delivery, it also provides one
+                            time order facility.</li>
+                        <li>Designed and developed front-end for Omnifood company with modern animations
+                            and effects.</li>
+                        <li>Worked with JQuery, HTML5, CSS3 for designing front-end and event handling.</li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <!-- ALL RIGHT SIDE CONTENTS -->
+<!--            <h1 class="break"></h1>-->
+        <div class="content-right">
+            <div class="contacts">
+                <h3>CONTACTS</h3>
+                <i class="ion-ios-location"></i>
+                <p>Flat no.3, C wing Ganesh <br>park socity opposite anandi<br> dining hall manikbaug 
+                    sinhagad<br> road, Pune, Maharashtra - 411051</p>
+                <i class="ion-ios-telephone"><p>8999412038, 8459903626</p></i>
+                <i class="ion-ios-email"><p>dhananjaygore64@gmail.com</p></i>
+            </div>
+            <div class="language">
+                <h3>LANGUAGE</h3>
+                <h4>English</h4>
+                <!--  below code creates skill bar and skillBar() accepts value in percentage and id for skil bar-->
+                <div class="skill-bar"><p id="english"></p></div>
+                <h4>Hindi</h4>
+                <div class="skill-bar"><p id="hindi"></p></div>
+                <h4>Marathi</h4>
+                <div class="skill-bar"><p id="marathi"></p></div>
+            </div>
+            <div class="skills">
+                <h3>SKILLS</h3>
+                <h4>Operating System</h4>
+                <p>Windows</p>
+                <p>Linux</p> 
+                <h4>Databases</h4>
+                <p>Oracle</p> 
+                <h4>Programming Languages</h4>
+                <p>Java</p>
+                <p>SQL</p>
+                <p>Embedded C</p>
+                <p>C Language</p>
+                <h4>Web Technologies</h4>
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+
+            </div> 
+        </div>
+            <div class="intro-style-container-botm footer-page-1">
+                <div class="parallelogram-black"></div>
+                <div class="parallelogram-orng"></div>
+            </div>
+        </div>
+
+<!--    <button class="cmd">Download PDF</button>-->
+        <h1 class="break"></h1>
+        <div class="box pageStruct page-2" class="print">
+ 
+            <!-- ALL LEFT SIDE CONTENTS -->
+            <header class="small-header">
+                <div class="intro-style-container-top-2">
+                    <div class="parallelogram-black"></div>
+                    <div class="parallelogram-orng"></div>
+                </div>
+            </header>
+<!--            <h1 class="break"></h1>-->
+            <div class="content-left">
+                <div class="projects">
+                    <div class="project-2 all">
+                        <h4>Quick Invoice -</h4>
+                        <h5>16 Jan'20 to 20 Feb'20</h5>
+                        <a href="https://github.com/dhananjaygore64/QuickInvoice" target="_blank">https://github.com/dhananjaygore64/QuickInvoice</a>
+                        <h5>Personal Study Project : </h5>
+                        <ul>
+                            <li>Built QuickInvoice using Core Java (JSE 1.8), Oracle SQL, JDBC such programming technologies.</li>
+                            <li>QuickInvoice is currently being used to generate Invoice for Incense Stick Manufacturing company.</li>
+                            <li>With just a few clicks, this generates an Invoice in Excel sheet format.</li>
+                            <li>Along with this every new customer's Data is stored in Oracle Database and this data is retrieved
+                                when the user select that customer for generating invoice next time.</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-3 all">
+                        <h4>Automated Irrigation System -</h4>
+                        <h5>11 Jul'17 to 3 Jun'18</h5>
+                        <h5>BE E&TC Project :</h5>
+                        <ul>
+                            <li>A Crop caring system which will take care of Soil Properties like soil moisture, fertilizer 
+                                and pH level automatically and this system works remotely by just making a call to the System .</li>
+                            <li>Performed troubleshooting on software performance issues.</li>
+                            <li>Provided solutions to software issues by reviewing/debugging code, and devising fixes and workarounds.</li>
+                            <li>This Project was developed by using <b>Embedded C Language.</b></li>
+                        </ul>
+                    </div>
+
+    <!--
+                    <div class="project-4 all">
+                        <h4>Human Body Detection And Earth Quack Analyser -</h4>
+                        <h5>8 Apr'14 to 1 Mar'15</h5>
+                        <h5>Diploma E&TC  Project :</h5>
+                        <ul>
+                            <li>This Project detects the living body presence in a hazardous condition to Save Human Being 
+                                and also measures the Earth Quack and transmits this data to a Main Station.</li>
+                            <li>This Project was developed by using <b>Embedded C Language.</b></li>
+                        </ul>
+                    </div>
+    -->
+                </div>  
+                <div class="exp-details">
+                    <h3>EXPERIENCE DETAILS</h3>
+                    <div class="exp-1">
+                        <h4>Agragamee Technology -</h4>
+                        <h5 class="date">2 Jul'18 - till date</h5>
+                        <h5>EMBEDDED SOFTWARE DEVELOPER</h5>
+                        <ul>
+                            <li><b>Built 5+ Projects</b> which include an Ultrasonic Flow Meter, Home Automation, Gardon Monitoring System 
+                                , Digital Thermostat etc. using <b>C Language and RTOS system.</b></li>
+                            <li>Also developed a <b>Front end and Back End</b> Software for Crane Load Chart loader using <b>Python 
+                                Language.</b></li>
+                            <li>Gained exposure in end-to-end development of software products as well as Embedded Products, 
+                                from requirement analysis to designing, coding and testing</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ALL RIGHT SIDE CONTENTS -->
+    <!--            <h1 class="break"></h1>-->
+            <div class="content-right">
+                <div class="education-details">
+                    <h3>EDUCATION DETAILS</h3>
+                    <h4>SSC</h4>
+                    <p>New English School Ramanbaug</p>
+                    <p class="yop">2012 complete</p>
+                    <p class="percent">62.18%</p>
+
+                    <h4>Diploma</h4>
+                    <p>Sou. Venutai Chavhan Polytechnic</p>
+                    <p>Electronics & Telecommunications</p>
+                    <p class="yop">2015 complete</p>
+                    <p class="percent">83.47%</p>
+
+                    <h4>B.E.</h4>
+                    <p>PVG'S College Of Engg. And Technology</p>
+                    <p>Electronics & Telecommunications</p>
+                    <p class="yop">2018 complete</p>
+                    <p class="percent">73.60%</p>
+                </div>
+                <div class="hobbies">
+                    <h3>HOBBIES</h3>
+                    <h5>Playing Flute</h5>
+                    <h5>Playing Harmonica</h5>
+                    <h5>Playing Guitar</h5>
+                    <h5>Exploring New Technologies</h5>
+                </div>
+            </div> 
+            <div class="intro-style-container-botm-2">
+                <div class="parallelogram-black"></div>
+                <div class="parallelogram-orng"></div>
+            </div>
+        </div>
+<!--        <button class="cmd">Print this page</button>-->
+    </body>
+    
+</html>
