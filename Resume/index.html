@@ -9,12 +9,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+        
         <script src="JS/htmlToPdf.js"></script>
         <script src="JS/script.js"></script>
         <title>Resume</title>
     </head>
     <body>             
-        <div class="box pageStruct page-1" class="print">
+        <div class="box pageStruct page-1" class="print" id="print-1">
             <header class="big-header">
                 <div class="intro-style-container-top-1">
                     <div class="parallelogram-black"></div>
@@ -44,7 +50,7 @@
         <!-- ALL LEFT SIDE CONTENTS -->
         <div class="content-left">
             <div class="objective">
-                <h3>OBJECTIVE</h3>
+                <h3><i class="ion-disc"></i>OBJECTIVE</h3>
                 <ul>
                     <li>Highly focused software developer with 1.11+ years experience in Embedded
                         software development. Organized and methodical with an eye for detail resulting
@@ -55,7 +61,7 @@
                 </ul>
             </div>
             <div class="achievements">
-                <h3>ACHIEVEMENTS</h3>
+                <h3><i class="ion-ribbon-b"></i>ACHIEVEMENTS</h3>
                 <ul>
                     <li>First Prize winner of Nirmitee Project Competition - An Inter Departm ent Project
                         competition at SVCP College.</li>
@@ -68,11 +74,11 @@
                 </ul>
             </div>  
             <div class="projects">
-                <h3>PROJECTS</h3>
+                <h3><i class="ion-settings"></i>PROJECTS</h3>
                 <div class="project-1 all">
                     <h4>Omnifood -</h4>
                     <h5 class="date">30 Apr'20 to 11 May'20</h5>
-                    <a href="https://dhananjaygore64.github.io/Omnifood/" target="_blank">https://dhananjaygore64.github.io/Omnifood/</a>
+                    <a href="https://dhananjaygore64.github.io/webpages/Omnifood/" target="_blank">https://dhananjaygore64.github.io/webpages/Omnifood/</a>
                     <h5>Personal Study Project : </h5>
                     <ul>
                         <li>Omnifood is an Imaginary Food delivery company which provides Healthy food for 
@@ -89,15 +95,15 @@
 <!--            <h1 class="break"></h1>-->
         <div class="content-right">
             <div class="contacts">
-                <h3>CONTACTS</h3>
+                <h3><i class="ion-android-person"></i>CONTACTS</h3>
                 <i class="ion-ios-location"></i>
                 <p>Flat no.3, C wing Ganesh <br>park socity opposite anandi<br> dining hall manikbaug 
                     sinhagad<br> road, Pune, Maharashtra - 411051</p>
-                <i class="ion-ios-telephone"><p>8999412038, 8459903626</p></i>
-                <i class="ion-ios-email"><p>dhananjaygore64@gmail.com</p></i>
+                <i class="ion-ios-telephone"><p class="phone-no">8999412038, 8459903626</p></i>
+                <i class="ion-ios-email"><p class="mail">dhananjaygore64@gmail.com</p></i>
             </div>
             <div class="language">
-                <h3>LANGUAGE</h3>
+                <h3><i class="ion-earth"></i>LANGUAGE</h3>
                 <h4>English</h4>
                 <!--  below code creates skill bar and skillBar() accepts value in percentage and id for skil bar-->
                 <div class="skill-bar"><p id="english"></p></div>
@@ -107,7 +113,7 @@
                 <div class="skill-bar"><p id="marathi"></p></div>
             </div>
             <div class="skills">
-                <h3>SKILLS</h3>
+                <h3><i class="ion-ios-gear"></i>SKILLS</h3>
                 <h4>Operating System</h4>
                 <p>Windows</p>
                 <p>Linux</p> 
@@ -133,7 +139,7 @@
 
 <!--    <button class="cmd">Download PDF</button>-->
         <h1 class="break"></h1>
-        <div class="box pageStruct page-2" class="print">
+        <div class="box pageStruct page-2" class="print" id="print-2">
  
             <!-- ALL LEFT SIDE CONTENTS -->
             <header class="small-header">
@@ -186,7 +192,7 @@
     -->
                 </div>  
                 <div class="exp-details">
-                    <h3>EXPERIENCE DETAILS</h3>
+                    <h3><i class="ion-calendar"></i>EXPERIENCE DETAILS</h3>
                     <div class="exp-1">
                         <h4>Agragamee Technology -</h4>
                         <h5 class="date">2 Jul'18 - till date</h5>
@@ -207,7 +213,7 @@
     <!--            <h1 class="break"></h1>-->
             <div class="content-right">
                 <div class="education-details">
-                    <h3>EDUCATION DETAILS</h3>
+                    <h3><i class="ion-university"></i>EDUCATION DETAILS</h3>
                     <h4>SSC</h4>
                     <p>New English School Ramanbaug</p>
                     <p class="yop">2012 complete</p>
@@ -226,7 +232,7 @@
                     <p class="percent">73.60%</p>
                 </div>
                 <div class="hobbies">
-                    <h3>HOBBIES</h3>
+                    <h3><i class="ion-ios-lightbulb"></i>HOBBIES</h3>
                     <h5>Playing Flute</h5>
                     <h5>Playing Harmonica</h5>
                     <h5>Playing Guitar</h5>
@@ -238,7 +244,7 @@
                 <div class="parallelogram-orng"></div>
             </div>
         </div>
-<!--        <button class="cmd">Print this page</button>-->
+<!--        <button class="cmd" onclick="genPDF();">Print this page</button>-->
     </body>
     
 </html>
